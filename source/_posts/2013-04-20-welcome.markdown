@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Welcome"
+date: 2013-04-20 08:49
+comments: true
+categories: other 
+---
+
+## 1. Test for
+test 中文 budinged
+zhege 
+
+``` js Javascript Hello World 
+alert('hello world~!');
+```
+
+``` python Python hello world
+print "hello world~!"
+```
+
+``` scala Scala Hello world
+object chen {
+	println("Hell world~!")
+}
+```

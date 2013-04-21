@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
+url: http://earthday.github.io
+title: Bright Chen's Blog @ GitHub.io
 subtitle: A blogging framework for hackers.
-author: Your Name
+author: Bright Chen
 simple_search: http://google.com/search
 description:
 
