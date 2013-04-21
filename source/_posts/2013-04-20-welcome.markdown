@@ -7,7 +7,17 @@ categories: other
 ---
 
 ## 搭建octopress
-搭建主要参考的是如下几篇文章，这里就不再赘述安装过程了。但是请注意一点，GitHub把pages的网页都转到了__*.github.io__的域名上了，因此在创建repo时要注意一下。
+
+搭建主要参考的是如下几篇文章，这里就不再赘述安装过程了。 
+
+* [Octopress 笔记](http://netwjx.github.io/blog/2012/03/18/octopress-note)
+* [在 Windows7 下从头开始安装部署 Octopress](http://sinosmond.github.io/blog/2012/03/12/install-and-deploy-octopress-to-github-on-windows7-from-scratch/)
+* [Deploying to Github Pages (官方文档)](http://octopress.org/docs/deploying/github/)
+
+但是请注意一点，GitHub把pages的网页都转到了__*.github.io__的域名上了，因此在创建repo时要注意一下。
+
+----------------------------------------
+## 下面是一些随便的测试
 
 ``` js 测试一下Javascript 
 alert('hello world~!');
