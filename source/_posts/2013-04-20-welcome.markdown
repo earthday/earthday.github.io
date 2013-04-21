@@ -6,20 +6,20 @@ comments: true
 categories: other 
 ---
 
-## 1. Test for
-test 中文 budinged
-zhege 
+## 搭建octopress
+搭建主要参考的是如下几篇文章，这里就不再赘述安装过程了。但是请注意一点，GitHub把pages的网页都转到了__*.github.io__的域名上了，因此在创建repo时要注意一下。
 
-``` js Javascript Hello World 
+``` js 测试一下Javascript 
 alert('hello world~!');
 ```
 
-``` python Python hello world
+``` python 测试一下Python
 print "hello world~!"
 ```
 
-``` scala Scala Hello world
+``` scala 测试一下Scala
 object chen {
 	println("Hell world~!")
 }
 ```
+
