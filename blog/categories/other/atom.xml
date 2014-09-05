@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: other | 新技能√]]></title>
-  <link href="http://earthday.github.io/blog/categories/other/atom.xml" rel="self"/>
-  <link href="http://earthday.github.io/"/>
-  <updated>2014-09-05T22:21:16+08:00</updated>
-  <id>http://earthday.github.io/</id>
+  <link href="http://get.czh.me/blog/categories/other/atom.xml" rel="self"/>
+  <link href="http://get.czh.me/"/>
+  <updated>2014-09-05T23:10:55+08:00</updated>
+  <id>http://get.czh.me/</id>
   <author>
     <name><![CDATA[Bright Chen]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Welcome]]></title>
-    <link href="http://earthday.github.io/blog/2013/04/20/welcome/"/>
+    <link href="http://get.czh.me/blog/2013/04/20/welcome/"/>
     <updated>2013-04-20T08:49:00+08:00</updated>
-    <id>http://earthday.github.io/blog/2013/04/20/welcome</id>
+    <id>http://get.czh.me/blog/2013/04/20/welcome</id>
     <content type="html"><![CDATA[<h2>搭建octopress</h2>
 
 <p>搭建主要参考的是如下几篇文章，这里就不再赘述安装过程了。</p>

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://earthday.github.io/sitemap.xml 
+Sitemap: http://get.czh.me/sitemap.xml 
