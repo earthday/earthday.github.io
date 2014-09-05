@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://earthday.github.io
-title: Bright Chen's Blog @ GitHub.io
-subtitle: A blogging framework for hackers.
+title: 新技能√
+subtitle: √ New Tech Get... is a website which records my "新技能√".
 author: Bright Chen
 simple_search: http://google.com/search
-description: This is Bright Chen's blog @ github.io
+description: √ New Tech Get... is a website which records my "新技能√".
 email: r@czh.me
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -93,4 +93,4 @@ disqus_show_comment_count: true
 google_analytics_tracking_id:
 
 # Facebook Like
-facebook_like: false
+facebook_like: true

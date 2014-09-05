@@ -33,3 +33,26 @@ object chen {
 }
 ```
 
+``` c# 测试一下C#
+using System;
+
+namesapce N1
+{
+	class App
+	{
+		public static void Main(string[] args)
+		{
+			console.WriteLine("Hello World~! :)");
+		}
+	}	
+}
+```
+
+``` c++ 测试一下C++
+#include <iostream>
+
+int main(int argc, char *argv[]) {
+	std::cout << "Hi~! World~!\n";
+	return 0;
+}
+```
