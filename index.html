@@ -9,16 +9,10 @@
   <meta name="author" content="Bright Chen">
 
   
-  <meta name="description" content="Error happens 好久没有玩这个东东了，最近在学习Ruby/RoR，所以突然对这个来了兴趣，但是却在运行rake generate时遇到了下列错误 1
+  <meta name="description" content="一不小心在错误的commit上打了tag，并且已经提交到了remote的repo上，那么怎么办哪？ 1
 2
-3
-4
-5
-6
-7
-λ rake generate
-## Generating Site with Jekyll
-identical &hellip;">
+git tag -d tag_name
+git push origin :refs/tags/tag_name 把上述命令中的tag_name变换成那个打错的tag名称即可。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -76,6 +70,59 @@ identical &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/02/04/how-to-delete-remote-tag/">How to Delete Remote Tag</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-02-04T01:01:00+08:00" pubdate data-updated="true">Feb 4<span>th</span>, 2015</time>
+        
+         | <a href="/blog/2015/02/04/how-to-delete-remote-tag/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>一不小心在错误的commit上打了tag，并且已经提交到了remote的repo上，那么怎么办哪？</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git tag -d tag_name
+</span><span class='line'>git push origin :refs/tags/tag_name</span></code></pre></td></tr></table></div></figure>
+
+
+<p>把上述命令中的tag_name变换成那个打错的tag名称即可。</p>
+
+<h2>References</h2>
+
+<ol>
+<li><a href="http://nathanhoad.net/how-to-delete-a-remote-git-tag">http://nathanhoad.net/how-to-delete-a-remote-git-tag</a></li>
+</ol>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -281,6 +328,10 @@ identical &hellip;">
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/02/04/how-to-delete-remote-tag/">How to delete remote tag</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/12/29/fix-invalid-byte-sequence-when-generating-static-post/">Fix &#8216;invalid byte sequence&#8217; when generating static post</a>
       </li>
     
@@ -330,7 +381,7 @@ identical &hellip;">
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - Bright Chen -
+  Copyright &copy; 2015 - Bright Chen -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
