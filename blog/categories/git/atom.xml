@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: git | 新技能√]]></title>
+  <link href="http://get.czh.me/blog/categories/git/atom.xml" rel="self"/>
+  <link href="http://get.czh.me/"/>
+  <updated>2015-04-13T22:01:34+08:00</updated>
+  <id>http://get.czh.me/</id>
+  <author>
+    <name><![CDATA[Bright Chen]]></name>
+    <email><![CDATA[r@czh.me]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How to delete remote tag]]></title>
+    <link href="http://get.czh.me/blog/2015/02/04/how-to-delete-remote-tag/"/>
+    <updated>2015-02-04T01:01:00+08:00</updated>
+    <id>http://get.czh.me/blog/2015/02/04/how-to-delete-remote-tag</id>
+    <content type="html"><![CDATA[<p>一不小心在错误的commit上打了tag，并且已经提交到了remote的repo上，那么怎么办哪？</p>
+
+<p><code>
+git tag -d tag_name
+git push origin :refs/tags/tag_name
+</code></p>
+
+<p>把上述命令中的tag_name变换成那个打错的tag名称即可。</p>
+
+<h2>References</h2>
+
+<ol>
+<li><a href="http://nathanhoad.net/how-to-delete-a-remote-git-tag">http://nathanhoad.net/how-to-delete-a-remote-git-tag</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

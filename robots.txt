@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://get.czh.me/sitemap.xml 

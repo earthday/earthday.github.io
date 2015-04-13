@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[新技能√]]></title>
+  <link href="http://get.czh.me/atom.xml" rel="self"/>
+  <link href="http://get.czh.me/"/>
+  <updated>2015-04-13T22:01:34+08:00</updated>
+  <id>http://get.czh.me/</id>
+  <author>
+    <name><![CDATA[Bright Chen]]></name>
+    <email><![CDATA[r@czh.me]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How to delete remote tag]]></title>
+    <link href="http://get.czh.me/blog/2015/02/04/how-to-delete-remote-tag/"/>
+    <updated>2015-02-04T01:01:00+08:00</updated>
+    <id>http://get.czh.me/blog/2015/02/04/how-to-delete-remote-tag</id>
+    <content type="html"><![CDATA[<p>一不小心在错误的commit上打了tag，并且已经提交到了remote的repo上，那么怎么办哪？</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git tag -d tag_name
+</span><span class='line'>git push origin :refs/tags/tag_name</span></code></pre></td></tr></table></div></figure>
+
+
+<p>把上述命令中的tag_name变换成那个打错的tag名称即可。</p>
+
+<h2>References</h2>
+
+<ol>
+<li><a href="http://nathanhoad.net/how-to-delete-a-remote-git-tag">http://nathanhoad.net/how-to-delete-a-remote-git-tag</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Fix 'invalid byte sequence' when generating static post]]></title>
+    <link href="http://get.czh.me/blog/2013/12/29/fix-invalid-byte-sequence-when-generating-static-post/"/>
+    <updated>2013-12-29T22:05:00+08:00</updated>
+    <id>http://get.czh.me/blog/2013/12/29/fix-invalid-byte-sequence-when-generating-static-post</id>
+    <content type="html"><![CDATA[<h2>Error happens</h2>
+
+<p>好久没有玩这个东东了，最近在学习Ruby/RoR，所以突然对这个来了兴趣，但是却在运行<code>rake generate</code>时遇到了下列错误</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>λ rake generate
+</span><span class='line'>## Generating Site with Jekyll
+</span><span class='line'>identical source/stylesheets/screen.css
+</span><span class='line'>Configuration from D:/github/earthday.github.io/_config.yml
+</span><span class='line'>Building site: source -&gt; public
+</span><span class='line'>YAML Exception reading 2013-04-20-welcome.markdown: invalid byte sequence in GBK D:/github/earthday.github.io/plugins/backtick_code_block.rb:13:in `gsub': invalid
+</span><span class='line'> byte sequence in GBK (ArgumentError)</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>解决办法</h2>
+
+<p>外事不决问Google，于是就找到了这个问题的解决办法。参见<a href="http://kumu-linux.github.io/blog/2013/04/06/octopress-plus-github/">http://kumu-linux.github.io/blog/2013/04/06/octopress-plus-github/</a>.
+就是在命令行中设置：</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>set LANG=zh_CN.UTF-8
+</span><span class='line'>set LC_ALL=zh_CN.UTF-8</span></code></pre></td></tr></table></div></figure>
+
+
+<p>OKay，既然好久没来了，就更新一篇，留个脚印。。哈哈。。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome]]></title>
+    <link href="http://get.czh.me/blog/2013/04/20/welcome/"/>
+    <updated>2013-04-20T08:49:00+08:00</updated>
+    <id>http://get.czh.me/blog/2013/04/20/welcome</id>
+    <content type="html"><![CDATA[<h2>搭建octopress</h2>
+
+<p>搭建主要参考的是如下几篇文章，这里就不再赘述安装过程了。</p>
+
+<ul>
+<li><a href="http://netwjx.github.io/blog/2012/03/18/octopress-note">Octopress 笔记</a></li>
+<li><a href="http://sinosmond.github.io/blog/2012/03/12/install-and-deploy-octopress-to-github-on-windows7-from-scratch/">在 Windows7 下从头开始安装部署 Octopress</a></li>
+<li><a href="http://octopress.org/docs/deploying/github/">Deploying to Github Pages (官方文档)</a></li>
+</ul>
+
+
+<p>但是请注意一点，GitHub把pages的网页都转到了<strong>*.github.io</strong>的域名上了，因此在创建repo时要注意一下。</p>
+
+<hr />
+
+<h2>下面是一些随便的测试</h2>
+
+<figure class='code'><figcaption><span>测试一下Javascript </span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="nx">alert</span><span class="p">(</span><span class="s1">&#39;hello world~!&#39;</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>测试一下Python</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="k">print</span> <span class="s">&quot;hello world~!&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>测试一下Scala</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='scala'><span class='line'><span class="k">object</span> <span class="nc">chen</span> <span class="o">{</span>
+</span><span class='line'>  <span class="n">println</span><span class="o">(</span><span class="s">&quot;Hell world~!&quot;</span><span class="o">)</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>测试一下C#</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class='c#'><span class='line'><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">namesapce</span> <span class="n">N1</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'>  <span class="k">class</span> <span class="nc">App</span>
+</span><span class='line'>  <span class="p">{</span>
+</span><span class='line'>      <span class="k">public</span> <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
+</span><span class='line'>      <span class="p">{</span>
+</span><span class='line'>          <span class="n">console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Hello World~! :)&quot;</span><span class="p">);</span>
+</span><span class='line'>      <span class="p">}</span>
+</span><span class='line'>  <span class="p">}</span>    
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>测试一下C++</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='c++'><span class='line'><span class="cp">#include &lt;iostream&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="kt">int</span> <span class="n">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span> <span class="p">{</span>
+</span><span class='line'>  <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;Hi~! World~!</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">;</span>
+</span><span class='line'>  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+</feed>
