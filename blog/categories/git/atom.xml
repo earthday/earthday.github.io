@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: git | 新技能√]]></title>
-  <link href="http://get.czh.me/blog/categories/git/atom.xml" rel="self"/>
-  <link href="http://get.czh.me/"/>
-  <updated>2015-04-13T22:01:34+08:00</updated>
-  <id>http://get.czh.me/</id>
+  <link href="http://earthday.github.io/blog/categories/git/atom.xml" rel="self"/>
+  <link href="http://earthday.github.io/"/>
+  <updated>2015-04-13T22:26:02+08:00</updated>
+  <id>http://earthday.github.io/</id>
   <author>
     <name><![CDATA[Bright Chen]]></name>
     <email><![CDATA[r@czh.me]]></email>
@@ -14,10 +14,25 @@
 
   
   <entry>
+    <title type="html"><![CDATA[git-internals]]></title>
+    <link href="http://earthday.github.io/blog/2015/04/13/git-internals/"/>
+    <updated>2015-04-13T22:19:00+08:00</updated>
+    <id>http://earthday.github.io/blog/2015/04/13/git-internals</id>
+    <content type="html"><![CDATA[<p>I've write a slide about the git, whcih is more details to explain the git internal things.</p>
+
+<p><a href="http://get.czh.me/slide-git-internals/">http://get.czh.me/slide-git-internals/</a></p>
+
+<iframe width="420" height="315" src="http://get.czh.me/slide-git-internals/" 
+  frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[How to delete remote tag]]></title>
-    <link href="http://get.czh.me/blog/2015/02/04/how-to-delete-remote-tag/"/>
+    <link href="http://earthday.github.io/blog/2015/02/04/how-to-delete-remote-tag/"/>
     <updated>2015-02-04T01:01:00+08:00</updated>
-    <id>http://get.czh.me/blog/2015/02/04/how-to-delete-remote-tag</id>
+    <id>http://earthday.github.io/blog/2015/02/04/how-to-delete-remote-tag</id>
     <content type="html"><![CDATA[<p>一不小心在错误的commit上打了tag，并且已经提交到了remote的repo上，那么怎么办哪？</p>
 
 <p><code>

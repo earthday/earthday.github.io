@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[新技能√]]></title>
-  <link href="http://get.czh.me/atom.xml" rel="self"/>
-  <link href="http://get.czh.me/"/>
-  <updated>2015-04-13T22:01:34+08:00</updated>
-  <id>http://get.czh.me/</id>
+  <link href="http://earthday.github.io/atom.xml" rel="self"/>
+  <link href="http://earthday.github.io/"/>
+  <updated>2015-04-13T22:26:02+08:00</updated>
+  <id>http://earthday.github.io/</id>
   <author>
     <name><![CDATA[Bright Chen]]></name>
     <email><![CDATA[r@czh.me]]></email>
@@ -14,10 +14,25 @@
 
   
   <entry>
+    <title type="html"><![CDATA[git-internals]]></title>
+    <link href="http://earthday.github.io/blog/2015/04/13/git-internals/"/>
+    <updated>2015-04-13T22:19:00+08:00</updated>
+    <id>http://earthday.github.io/blog/2015/04/13/git-internals</id>
+    <content type="html"><![CDATA[<p>I&#8217;ve write a slide about the git, whcih is more details to explain the git internal things.</p>
+
+<p><a href="http://get.czh.me/slide-git-internals/">http://get.czh.me/slide-git-internals/</a></p>
+
+<iframe width="420" height="315" src="http://get.czh.me/slide-git-internals/" 
+  frameborder="0" allowfullscreen></iframe>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[How to delete remote tag]]></title>
-    <link href="http://get.czh.me/blog/2015/02/04/how-to-delete-remote-tag/"/>
+    <link href="http://earthday.github.io/blog/2015/02/04/how-to-delete-remote-tag/"/>
     <updated>2015-02-04T01:01:00+08:00</updated>
-    <id>http://get.czh.me/blog/2015/02/04/how-to-delete-remote-tag</id>
+    <id>http://earthday.github.io/blog/2015/02/04/how-to-delete-remote-tag</id>
     <content type="html"><![CDATA[<p>一不小心在错误的commit上打了tag，并且已经提交到了remote的repo上，那么怎么办哪？</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -39,9 +54,9 @@
   
   <entry>
     <title type="html"><![CDATA[Fix 'invalid byte sequence' when generating static post]]></title>
-    <link href="http://get.czh.me/blog/2013/12/29/fix-invalid-byte-sequence-when-generating-static-post/"/>
+    <link href="http://earthday.github.io/blog/2013/12/29/fix-invalid-byte-sequence-when-generating-static-post/"/>
     <updated>2013-12-29T22:05:00+08:00</updated>
-    <id>http://get.czh.me/blog/2013/12/29/fix-invalid-byte-sequence-when-generating-static-post</id>
+    <id>http://earthday.github.io/blog/2013/12/29/fix-invalid-byte-sequence-when-generating-static-post</id>
     <content type="html"><![CDATA[<h2>Error happens</h2>
 
 <p>好久没有玩这个东东了，最近在学习Ruby/RoR，所以突然对这个来了兴趣，但是却在运行<code>rake generate</code>时遇到了下列错误</p>
@@ -79,9 +94,9 @@
   
   <entry>
     <title type="html"><![CDATA[Welcome]]></title>
-    <link href="http://get.czh.me/blog/2013/04/20/welcome/"/>
+    <link href="http://earthday.github.io/blog/2013/04/20/welcome/"/>
     <updated>2013-04-20T08:49:00+08:00</updated>
-    <id>http://get.czh.me/blog/2013/04/20/welcome</id>
+    <id>http://earthday.github.io/blog/2013/04/20/welcome</id>
     <content type="html"><![CDATA[<h2>搭建octopress</h2>
 
 <p>搭建主要参考的是如下几篇文章，这里就不再赘述安装过程了。</p>
