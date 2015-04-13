@@ -20,7 +20,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email: r@czh.me
 # RSS feeds can list your email address if you like
-email:
+email: r@czh.me
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -90,7 +90,7 @@ disqus_short_name: "earthday-github-io"
 disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: "UA-61844975-1"
 
 # Facebook Like
 facebook_like: true
